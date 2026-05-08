@@ -1,0 +1,23 @@
+[
+  {
+    "doctype": "Custom Field",
+    "name": "Item-item_forms_section",
+    "dt": "Item",
+    "fieldname": "item_forms_section",
+    "fieldtype": "Section Break",
+    "label": "Item Forms",
+    "insert_after": "description",
+    "collapsible": 0
+  },
+  {
+    "doctype": "Custom Field",
+    "name": "Item-item_forms",
+    "dt": "Item",
+    "fieldname": "item_forms",
+    "fieldtype": "Table",
+    "label": "Item Forms",
+    "options": "Item Form",
+    "insert_after": "item_forms_section",
+    "reqd": 0
+  }
+]
